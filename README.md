@@ -1,5 +1,5 @@
 # optee_vuln
-
+A vuln demo on TA，inclding overflow, type confusion and toctou.
 ### 1.安装optee依赖库
 
 sudo apt-get install android-tools-adb android-tools-fastboot autoconf \ 
