@@ -1,0 +1,1638 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+                              ./toctou.o (memcpy)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+                              ./toctou.o (trace_printf)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o) (snprintk)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o) (memchr)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o) (strlen)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o) (trace_ext_puts)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                              ./user_ta_header.o (utee_return)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+                              ./user_ta_header.o (__utee_entry)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o) (TEE_Malloc)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o) (TEE_Panic)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o) (tee_map_zi)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o) (_TEE_MathAPI_Init)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o) (mbedtls_mpi_init_mempool)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o) (mbedtls_platform_zeroize)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o) (malloc)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o) (vsnprintf)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o) (memmove)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o) (memset)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o) (mempool_alloc_pool)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o) (consttime_memcmp)
+/home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+                              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o) (_assert_log)
+
+Allocating common symbols
+Common symbol       size              file
+
+ta_heap             0x8000            ./user_ta_header.o
+ta_param_types      0x4               /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ta_params           0x40              /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+mbedtls_mpi_mempool
+                    0x8               /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc ./toctou.o
+ .group         0x0000000000000000        0xc ./toctou.o
+ .group         0x0000000000000000        0xc ./toctou.o
+ .group         0x0000000000000000        0xc ./toctou.o
+ .group         0x0000000000000000        0xc ./toctou.o
+ .group         0x0000000000000000        0xc ./toctou.o
+ .group         0x0000000000000000        0xc ./toctou.o
+ .group         0x0000000000000000        0xc ./toctou.o
+ .group         0x0000000000000000        0xc ./toctou.o
+ .group         0x0000000000000000        0xc ./toctou.o
+ .group         0x0000000000000000        0xc ./toctou.o
+ .group         0x0000000000000000        0xc ./toctou.o
+ .group         0x0000000000000000        0xc ./toctou.o
+ .group         0x0000000000000000        0xc ./toctou.o
+ .group         0x0000000000000000        0xc ./toctou.o
+ .group         0x0000000000000000        0xc ./toctou.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .group         0x0000000000000000        0xc ./user_ta_header.o
+ .debug_macro   0x0000000000000000       0xd9 ./user_ta_header.o
+ .debug_macro   0x0000000000000000      0x99e ./user_ta_header.o
+ .debug_macro   0x0000000000000000       0x7c ./user_ta_header.o
+ .debug_macro   0x0000000000000000      0x1a7 ./user_ta_header.o
+ .debug_macro   0x0000000000000000       0xc4 ./user_ta_header.o
+ .debug_macro   0x0000000000000000       0x22 ./user_ta_header.o
+ .debug_macro   0x0000000000000000      0x16d ./user_ta_header.o
+ .debug_macro   0x0000000000000000       0x35 ./user_ta_header.o
+ .debug_macro   0x0000000000000000       0x58 ./user_ta_header.o
+ .debug_macro   0x0000000000000000       0x34 ./user_ta_header.o
+ .debug_macro   0x0000000000000000       0x95 ./user_ta_header.o
+ .debug_macro   0x0000000000000000       0xca ./user_ta_header.o
+ .debug_macro   0x0000000000000000       0x22 ./user_ta_header.o
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x58 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x22 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x34 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x95 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x58 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000000000       0x22 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x58 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x22 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x34 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x95 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0xd1 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000      0x99e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000000000       0x35 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x22 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000      0x99e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x35 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x58 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x34 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x95 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x10 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0xca /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0xd7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x82 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000000000       0x2e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x22 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x2e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x28 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000      0x99e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x35 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x58 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x34 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x95 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0xca /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0xd7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x0000000000000000       0x82 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000      0x99e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x22 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x35 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x58 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x34 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000000000       0x95 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0xd1 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x58 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x22 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x34 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x95 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0xca /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000      0x99e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x35 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x10 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000000000       0x2e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x58 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x22 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x34 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x95 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x2e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000      0x99e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x35 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0x34 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x0000000000000000       0xd7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000      0x124 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x79 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x58 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x22 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x2e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0x28 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x0000000000000000       0xd7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000      0x124 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x1c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x58 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x22 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x2e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x28 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x22 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x2e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x28 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x58 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x34 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0x95 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x0000000000000000       0xd7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000       0x58 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_macro   0x0000000000000000       0x22 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x58 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x22 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x34 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x95 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x10 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x2e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x28 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x10 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x0000000000000000       0xd7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x0000000000000000       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .group         0x0000000000000000        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0xd9 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x58 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x22 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x16d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x34 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x95 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x10 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x99e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000      0x1a7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0xc4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x35 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0x10 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x0000000000000000       0xca /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.ta_head        0x0000000000000000       0x20
+ *(SORT_BY_ALIGNMENT(.ta_head))
+ .ta_head       0x0000000000000000       0x20 ./user_ta_header.o
+                0x0000000000000000                ta_head
+
+.text           0x0000000000000020     0x8aa0
+                0x0000000000000020                __text_start = .
+ *(SORT_BY_ALIGNMENT(.text) SORT_BY_ALIGNMENT(.text.*))
+ .text          0x0000000000000020      0x2d4 ./toctou.o
+                0x0000000000000020                TA_CreateEntryPoint
+                0x000000000000008c                TA_DestroyEntryPoint
+                0x00000000000000b0                TA_OpenSessionEntryPoint
+                0x0000000000000120                TA_CloseSessionEntryPoint
+                0x0000000000000144                TA_InvokeCommandEntryPoint
+ .text          0x00000000000002f4       0x1c ./user_ta_header.o
+                0x00000000000002f4                __ta_entry
+                0x0000000000000308                tahead_get_trace_level
+ .text          0x0000000000000310       0x20 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+                0x0000000000000310                memcpy
+ .text          0x0000000000000330      0x4bc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+                0x00000000000003f4                trace_set_level
+                0x0000000000000410                trace_get_level
+                0x0000000000000420                trace_vprintf
+                0x0000000000000610                trace_printf
+                0x0000000000000680                dhex_dump
+ .text          0x00000000000007ec      0xcfc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+                0x00000000000007ec                __vsnprintf
+                0x0000000000001420                vsnprintk
+                0x0000000000001474                snprintk
+ .text          0x00000000000014e8       0x2c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+                0x00000000000014e8                memchr
+ .text          0x0000000000001514       0x1c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+                0x0000000000001514                strlen
+ .text          0x0000000000001530      0x174 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+                0x0000000000001530                trace_ext_puts
+                0x0000000000001558                trace_ext_get_thread_id
+                0x0000000000001560                printf
+                0x0000000000001628                puts
+                0x0000000000001668                putchar
+ .text.utee_panic
+                0x00000000000016a4        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000016a4                utee_panic
+ .text.utee_return
+                0x00000000000016b0        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000016b0                utee_return
+ .text.utee_log
+                0x00000000000016bc        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000016bc                utee_log
+ .text.__utee_panic
+                0x00000000000016c8        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000016c8                __utee_panic
+ .text.utee_get_property
+                0x00000000000016d4        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000016d4                utee_get_property
+ .text.utee_get_property_name_to_index
+                0x00000000000016e0        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000016e0                utee_get_property_name_to_index
+ .text.utee_open_ta_session
+                0x00000000000016ec        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000016ec                utee_open_ta_session
+ .text.utee_close_ta_session
+                0x00000000000016f8        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000016f8                utee_close_ta_session
+ .text.utee_invoke_ta_command
+                0x0000000000001704        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001704                utee_invoke_ta_command
+ .text.utee_get_cancellation_flag
+                0x0000000000001710        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001710                utee_get_cancellation_flag
+ .text.utee_check_access_rights
+                0x000000000000171c        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x000000000000171c                utee_check_access_rights
+ .text.utee_unmask_cancellation
+                0x0000000000001728        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001728                utee_unmask_cancellation
+ .text.utee_mask_cancellation
+                0x0000000000001734        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001734                utee_mask_cancellation
+ .text.utee_wait
+                0x0000000000001740        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001740                utee_wait
+ .text.utee_get_time
+                0x000000000000174c        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x000000000000174c                utee_get_time
+ .text.utee_set_ta_time
+                0x0000000000001758        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001758                utee_set_ta_time
+ .text.utee_cryp_state_alloc
+                0x0000000000001764        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001764                utee_cryp_state_alloc
+ .text.utee_cryp_state_copy
+                0x0000000000001770        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001770                utee_cryp_state_copy
+ .text.utee_cryp_state_free
+                0x000000000000177c        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x000000000000177c                utee_cryp_state_free
+ .text.utee_hash_init
+                0x0000000000001788        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001788                utee_hash_init
+ .text.utee_hash_update
+                0x0000000000001794        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001794                utee_hash_update
+ .text.utee_hash_final
+                0x00000000000017a0        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000017a0                utee_hash_final
+ .text.utee_cipher_init
+                0x00000000000017ac        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000017ac                utee_cipher_init
+ .text.utee_cipher_update
+                0x00000000000017b8        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000017b8                utee_cipher_update
+ .text.utee_cipher_final
+                0x00000000000017c4        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000017c4                utee_cipher_final
+ .text.utee_cryp_obj_get_info
+                0x00000000000017d0        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000017d0                utee_cryp_obj_get_info
+ .text.utee_cryp_obj_restrict_usage
+                0x00000000000017dc        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000017dc                utee_cryp_obj_restrict_usage
+ .text.utee_cryp_obj_get_attr
+                0x00000000000017e8        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000017e8                utee_cryp_obj_get_attr
+ .text.utee_cryp_obj_alloc
+                0x00000000000017f4        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000017f4                utee_cryp_obj_alloc
+ .text.utee_cryp_obj_close
+                0x0000000000001800        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001800                utee_cryp_obj_close
+ .text.utee_cryp_obj_reset
+                0x000000000000180c        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x000000000000180c                utee_cryp_obj_reset
+ .text.utee_cryp_obj_populate
+                0x0000000000001818        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001818                utee_cryp_obj_populate
+ .text.utee_cryp_obj_copy
+                0x0000000000001824        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001824                utee_cryp_obj_copy
+ .text.utee_cryp_derive_key
+                0x0000000000001830        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001830                utee_cryp_derive_key
+ .text.utee_cryp_random_number_generate
+                0x000000000000183c        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x000000000000183c                utee_cryp_random_number_generate
+ .text.utee_authenc_init
+                0x0000000000001848        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001848                utee_authenc_init
+ .text.utee_authenc_update_aad
+                0x0000000000001854        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001854                utee_authenc_update_aad
+ .text.utee_authenc_update_payload
+                0x0000000000001860        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001860                utee_authenc_update_payload
+ .text.utee_authenc_enc_final
+                0x000000000000186c        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x000000000000186c                utee_authenc_enc_final
+ .text.utee_authenc_dec_final
+                0x0000000000001878        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001878                utee_authenc_dec_final
+ .text.utee_asymm_operate
+                0x0000000000001884        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001884                utee_asymm_operate
+ .text.utee_asymm_verify
+                0x0000000000001890        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001890                utee_asymm_verify
+ .text.utee_storage_obj_open
+                0x000000000000189c        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x000000000000189c                utee_storage_obj_open
+ .text.utee_storage_obj_create
+                0x00000000000018a8        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000018a8                utee_storage_obj_create
+ .text.utee_storage_obj_del
+                0x00000000000018b4        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000018b4                utee_storage_obj_del
+ .text.utee_storage_obj_rename
+                0x00000000000018c0        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000018c0                utee_storage_obj_rename
+ .text.utee_storage_alloc_enum
+                0x00000000000018cc        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000018cc                utee_storage_alloc_enum
+ .text.utee_storage_free_enum
+                0x00000000000018d8        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000018d8                utee_storage_free_enum
+ .text.utee_storage_reset_enum
+                0x00000000000018e4        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000018e4                utee_storage_reset_enum
+ .text.utee_storage_start_enum
+                0x00000000000018f0        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000018f0                utee_storage_start_enum
+ .text.utee_storage_next_enum
+                0x00000000000018fc        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x00000000000018fc                utee_storage_next_enum
+ .text.utee_storage_obj_read
+                0x0000000000001908        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001908                utee_storage_obj_read
+ .text.utee_storage_obj_write
+                0x0000000000001914        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001914                utee_storage_obj_write
+ .text.utee_storage_obj_trunc
+                0x0000000000001920        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001920                utee_storage_obj_trunc
+ .text.utee_storage_obj_seek
+                0x000000000000192c        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x000000000000192c                utee_storage_obj_seek
+ .text.utee_cryp_obj_generate_key
+                0x0000000000001938        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001938                utee_cryp_obj_generate_key
+ .text.utee_cache_operation
+                0x0000000000001944        0xc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001944                utee_cache_operation
+ .text          0x0000000000001950      0x3ac /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+                0x0000000000001b00                __utee_entry
+ .text          0x0000000000001cfc      0x71c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+                0x0000000000001db4                TEE_CloseTASession
+                0x0000000000001ddc                TEE_GetCancellationFlag
+                0x0000000000001e08                TEE_UnmaskCancellation
+                0x0000000000001e34                TEE_MaskCancellation
+                0x0000000000001e60                TEE_CheckMemoryAccessRights
+                0x0000000000002044                TEE_InvokeTACommand
+                0x0000000000002148                TEE_OpenTASession
+                0x0000000000002224                TEE_SetInstanceData
+                0x0000000000002230                TEE_GetInstanceData
+                0x000000000000223c                TEE_MemMove
+                0x0000000000002244                TEE_MemCompare
+                0x000000000000224c                TEE_MemFill
+                0x0000000000002254                TEE_GetSystemTime
+                0x000000000000227c                TEE_Wait
+                0x00000000000022b8                TEE_GetTAPersistentTime
+                0x000000000000232c                TEE_SetTAPersistentTime
+                0x0000000000002370                TEE_GetREETime
+                0x0000000000002398                TEE_Malloc
+                0x00000000000023f4                TEE_Realloc
+                0x00000000000023fc                TEE_Free
+                0x0000000000002400                TEE_CacheClean
+                0x0000000000002408                TEE_CacheFlush
+                0x0000000000002410                TEE_CacheInvalidate
+ .text          0x0000000000002418        0x8 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+                0x0000000000002418                TEE_Panic
+ .text          0x0000000000002420      0x188 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+                0x00000000000024a8                tee_map_zi
+                0x000000000000251c                tee_unmap
+ .text          0x00000000000025a8     0x1944 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+                0x0000000000002db0                _TEE_MathAPI_Init
+                0x0000000000002e00                TEE_BigIntInit
+                0x0000000000002e70                TEE_BigIntConvertFromOctetString
+                0x0000000000002efc                TEE_BigIntConvertToOctetString
+                0x0000000000002f90                TEE_BigIntConvertFromS32
+                0x0000000000003014                TEE_BigIntConvertToS32
+                0x000000000000309c                TEE_BigIntCmp
+                0x0000000000003104                TEE_BigIntCmpS32
+                0x00000000000032e0                TEE_BigIntShiftRight
+                0x000000000000344c                TEE_BigIntGetBit
+                0x0000000000003498                TEE_BigIntGetBitCount
+                0x00000000000034d8                TEE_BigIntAdd
+                0x00000000000034e4                TEE_BigIntSub
+                0x00000000000034f0                TEE_BigIntNeg
+                0x00000000000035a0                TEE_BigIntMul
+                0x0000000000003688                TEE_BigIntSquare
+                0x0000000000003690                TEE_BigIntDiv
+                0x0000000000003808                TEE_BigIntMod
+                0x000000000000386c                TEE_BigIntAddMod
+                0x0000000000003878                TEE_BigIntSubMod
+                0x0000000000003884                TEE_BigIntMulMod
+                0x0000000000003890                TEE_BigIntSquareMod
+                0x000000000000389c                TEE_BigIntInvMod
+                0x00000000000039b8                TEE_BigIntRelativePrime
+                0x0000000000003a8c                TEE_BigIntComputeExtendedGcd
+                0x0000000000003cc4                TEE_BigIntIsProbablePrime
+                0x0000000000003d14                TEE_BigIntInitFMM
+                0x0000000000003d18                TEE_BigIntInitFMMContext
+                0x0000000000003d1c                TEE_BigIntFMMSizeInU32
+                0x0000000000003d2c                TEE_BigIntFMMContextSizeInU32
+                0x0000000000003d34                TEE_BigIntConvertToFMM
+                0x0000000000003d38                TEE_BigIntConvertFromFMM
+                0x0000000000003dd4                TEE_BigIntComputeFMM
+ .text          0x0000000000003eec     0x3bc8 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+                0x0000000000004484                mbedtls_mpi_init
+                0x0000000000004494                mbedtls_mpi_init_mempool
+                0x00000000000044bc                mbedtls_mpi_free
+                0x0000000000004528                mbedtls_mpi_grow
+                0x0000000000004620                mbedtls_mpi_shrink
+                0x0000000000004740                mbedtls_mpi_copy
+                0x00000000000047f4                mbedtls_mpi_swap
+                0x0000000000004854                mbedtls_mpi_safe_cond_assign
+                0x0000000000004914                mbedtls_mpi_safe_cond_swap
+                0x00000000000049f8                mbedtls_mpi_lset
+                0x0000000000004a60                mbedtls_mpi_get_bit
+                0x0000000000004a8c                mbedtls_mpi_set_bit
+                0x0000000000004b18                mbedtls_mpi_lsb
+                0x0000000000004b6c                mbedtls_mpi_bitlen
+                0x0000000000004bc8                mbedtls_mpi_size
+                0x0000000000004be4                mbedtls_mpi_read_binary
+                0x0000000000004c9c                mbedtls_mpi_write_binary
+                0x0000000000004d60                mbedtls_mpi_shift_l
+                0x0000000000004e60                mbedtls_mpi_shift_r
+                0x0000000000004f28                mbedtls_mpi_cmp_abs
+                0x0000000000004fc4                mbedtls_mpi_cmp_mpi
+                0x000000000000509c                mbedtls_mpi_cmp_int
+                0x00000000000050dc                mbedtls_mpi_add_abs
+                0x0000000000005208                mbedtls_mpi_sub_abs
+                0x00000000000052dc                mbedtls_mpi_add_mpi
+                0x0000000000005364                mbedtls_mpi_sub_mpi
+                0x00000000000053f0                mbedtls_mpi_add_int
+                0x0000000000005430                mbedtls_mpi_sub_int
+                0x0000000000005470                mbedtls_mpi_mul_mpi
+                0x00000000000055c0                mbedtls_mpi_mul_int
+                0x00000000000055f4                mbedtls_mpi_read_string
+                0x00000000000057d8                mbedtls_mpi_div_mpi
+                0x0000000000005d04                mbedtls_mpi_div_int
+                0x0000000000005d44                mbedtls_mpi_mod_mpi
+                0x0000000000005df8                mbedtls_mpi_mod_int
+                0x0000000000005f6c                mbedtls_mpi_write_string
+                0x00000000000061d8                mbedtls_mpi_montg_init
+                0x0000000000006214                mbedtls_mpi_montmul
+                0x0000000000006348                mbedtls_mpi_montred
+                0x0000000000006388                mbedtls_mpi_exp_mod
+                0x0000000000006a14                mbedtls_mpi_gcd
+                0x0000000000006bd0                mbedtls_mpi_fill_random
+                0x0000000000006edc                mbedtls_mpi_inv_mod
+                0x0000000000007314                mbedtls_mpi_is_prime_ext
+                0x00000000000073bc                mbedtls_mpi_is_prime
+                0x00000000000073cc                mbedtls_mpi_gen_prime
+                0x00000000000076d8                mbedtls_mpi_self_test
+ .text          0x0000000000007ab4       0x14 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+                0x0000000000007ab4                mbedtls_platform_zeroize
+ .text          0x0000000000007ac8      0xc44 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+                0x0000000000007b0c                bget
+                0x0000000000007ccc                bgetz
+                0x0000000000007d58                brel
+                0x0000000000008014                bgetr
+                0x00000000000080e0                bpool
+                0x00000000000081b4                bstats
+                0x000000000000824c                malloc_reset_stats
+                0x0000000000008264                malloc_get_stats
+                0x000000000000829c                malloc
+                0x00000000000082ec                calloc
+                0x0000000000008350                realloc
+                0x00000000000083a0                free
+                0x00000000000083b8                free_wipe
+                0x00000000000083d0                malloc_add_pool
+                0x0000000000008520                malloc_buffer_is_within_alloced
+                0x00000000000086a0                malloc_buffer_overlaps_heap
+ .text          0x000000000000870c       0xcc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+                0x000000000000870c                snprintf
+                0x0000000000008784                vsnprintf
+ .text          0x00000000000087d8       0x5c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+                0x00000000000087d8                memmove
+ .text          0x0000000000008834       0x1c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+                0x0000000000008834                memset
+ .text          0x0000000000008850      0x1a8 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+                0x0000000000008850                mempool_alloc_pool
+                0x00000000000088b8                mempool_alloc
+                0x0000000000008964                mempool_calloc
+                0x00000000000089b4                mempool_free
+ .text          0x00000000000089f8       0x70 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+                0x00000000000089f8                consttime_memcmp
+ .text          0x0000000000008a68       0x58 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+                0x0000000000008a68                _assert_log
+                0x0000000000008aac                _assert_break
+ .text          0x0000000000008ac0        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+ *(SORT_BY_ALIGNMENT(.stub))
+ *(SORT_BY_ALIGNMENT(.glue_7))
+ *(SORT_BY_ALIGNMENT(.glue_7t))
+ *(SORT_BY_ALIGNMENT(.gnu.linkonce.t.*))
+ *(SORT_BY_ALIGNMENT(.vfp11_veneer))
+                0x0000000000008ac0                __text_end = .
+
+.plt            0x0000000000008ac0        0x0
+ *(SORT_BY_ALIGNMENT(.plt))
+ .plt           0x0000000000008ac0        0x0 ./toctou.o
+
+.eh_frame       0x0000000000008ac0     0x1ae0
+ *(SORT_BY_ALIGNMENT(.eh_frame))
+ .eh_frame      0x0000000000008ac0       0xd8 ./toctou.o
+ .eh_frame      0x0000000000008b98       0x30 ./user_ta_header.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000008bc8       0x18 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000000008be0      0x108 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+                                        0x118 (size before relaxing)
+ .eh_frame      0x0000000000008ce8       0x90 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+                                         0xa8 (size before relaxing)
+ .eh_frame      0x0000000000008d78       0x18 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000000008d90       0x18 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000000008da8       0xb0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+                                         0xc0 (size before relaxing)
+ .eh_frame      0x0000000000008e58       0xb8 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+                                         0xd0 (size before relaxing)
+ .eh_frame      0x0000000000008f10      0x340 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+                                        0x358 (size before relaxing)
+ .eh_frame      0x0000000000009250       0x18 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000000009268       0x88 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x00000000000092f0      0x630 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+                                        0x640 (size before relaxing)
+ .eh_frame      0x0000000000009920      0x8e8 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+                                        0x8f8 (size before relaxing)
+ .eh_frame      0x000000000000a208       0x18 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x000000000000a220      0x230 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+                                        0x248 (size before relaxing)
+ .eh_frame      0x000000000000a450       0x48 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+                                         0x60 (size before relaxing)
+ .eh_frame      0x000000000000a498       0x18 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x000000000000a4b0       0x18 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x000000000000a4c8       0x80 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x000000000000a548       0x20 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000a568       0x38 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+                                         0x50 (size before relaxing)
+
+.rodata         0x000000000000a5a0     0x1092
+ *(SORT_BY_ALIGNMENT(.gnu.linkonce.r.*))
+ *(SORT_BY_ALIGNMENT(.rodata) SORT_BY_ALIGNMENT(.rodata.*))
+ .rodata.user_ta_header.c
+                0x000000000000a5a0       0x23 ./user_ta_header.o
+                0x000000000000a5a0                ta_num_props
+                0x000000000000a5b8                ta_heap_size
+                0x000000000000a5c0                trace_ext_prefix
+ *fill*         0x000000000000a5c3        0x1 
+ .rodata.lib/libutee/arch/arm/user_ta_entry.c
+                0x000000000000a5c4        0xf /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ *fill*         0x000000000000a5d3        0x1 
+ .rodata.lib/libutee/tee_api.c
+                0x000000000000a5d4       0x1a /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ *fill*         0x000000000000a5ee        0x2 
+ .rodata.lib/libutee/tee_system_pta.c
+                0x000000000000a5f0       0x1a /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ *fill*         0x000000000000a60a        0x2 
+ .rodata.lib/libmbedtls/mbedtls/library/bignum.c
+                0x000000000000a60c      0x2c4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .rodata.toctou.c
+                0x000000000000a8d0       0x70 ./toctou.o
+ .rodata.str1.1.toctou.c
+                0x000000000000a940       0xd4 ./toctou.o
+ .rodata.str1.1.user_ta_header.c
+                0x000000000000aa14      0x11e ./user_ta_header.o
+ .rodata.lib/libutils/ext/trace.c
+                0x000000000000ab32        0xf /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .rodata.str1.1.lib/libutils/ext/trace.c
+                0x000000000000ab41       0x37 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+                                         0x3d (size before relaxing)
+ .rodata.lib/libutils/ext/snprintk.c
+                0x000000000000ab78       0x22 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .rodata.str1.1.lib/libutils/ext/snprintk.c
+                0x000000000000ab9a       0x38 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .rodata.str1.1.lib/libutee/trace_ext.c
+                0x000000000000abd2       0x38 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+                                          0x2 (size before relaxing)
+ .rodata.str1.1.lib/libutee/tee_api.c
+                0x000000000000abd2       0x11 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .rodata.str1.1.lib/libutee/tee_system_pta.c
+                0x000000000000abe3       0x2a /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .rodata.lib/libutee/tee_api_arith_mpi.c
+                0x000000000000ac0d      0x13d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .rodata.str1.1.lib/libutee/tee_api_arith_mpi.c
+                0x000000000000ad4a       0xb7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .rodata.str1.1.lib/libmbedtls/mbedtls/library/bignum.c
+                0x000000000000ae01      0x45d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .rodata.lib/libutils/isoc/bget_malloc.c
+                0x000000000000b25e       0x58 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .rodata.str1.1.lib/libutils/isoc/bget_malloc.c
+                0x000000000000b2b6      0x2ba /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+                                        0x2c5 (size before relaxing)
+ .rodata.lib/libutils/ext/mempool.c
+                0x000000000000b570       0x21 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .rodata.str1.1.lib/libutils/ext/mempool.c
+                0x000000000000b591       0x7a /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .rodata.str1.1.lib/libutee/assert.c
+                0x000000000000b60b       0x27 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.gnu.version_d  0x000000000000b638        0x0
+ .gnu.version_d
+                0x000000000000b638        0x0 ./toctou.o
+
+.gnu.version    0x000000000000b632        0x0
+ .gnu.version   0x000000000000b632        0x0 ./toctou.o
+
+.gnu.version_r  0x000000000000b638        0x0
+ .gnu.version_r
+                0x000000000000b638        0x0 ./toctou.o
+
+.gnu.hash       0x000000000000b638       0x1c
+ .gnu.hash      0x000000000000b638       0x1c ./toctou.o
+
+.ARM.exidx
+ *(SORT_BY_ALIGNMENT(.ARM.exidx*) SORT_BY_ALIGNMENT(.gnu.linkonce.armexidx.*))
+
+.ctors
+ *(SORT_BY_ALIGNMENT(.ctors))
+
+.dtors
+ *(SORT_BY_ALIGNMENT(.dtors))
+
+.dynsym         0x000000000000b658       0x48
+ *(SORT_BY_ALIGNMENT(.dynsym))
+ .dynsym        0x000000000000b658       0x48 ./toctou.o
+
+.dynstr         0x000000000000b6a0        0x1
+ *(SORT_BY_ALIGNMENT(.dynstr))
+ .dynstr        0x000000000000b6a0        0x1 ./toctou.o
+
+.hash           0x000000000000b6a8       0x18
+ *(SORT_BY_ALIGNMENT(.hash))
+ .hash          0x000000000000b6a8       0x18 ./toctou.o
+
+.rela.dyn       0x000000000000b6c0      0x210
+ .rela.data.rel.ro
+                0x000000000000b6c0        0x0 ./toctou.o
+ .rela.ifunc    0x000000000000b6c0        0x0 ./toctou.o
+ .rela.data.rel.ro.local
+                0x000000000000b6c0      0x1b0 ./toctou.o
+ .rela.data.rel.local
+                0x000000000000b870       0x48 ./toctou.o
+ .rela.data.rel
+                0x000000000000b8b8       0x18 ./toctou.o
+                0x000000000000c000                . = ALIGN (0x1000)
+
+.dynamic        0x000000000000c000      0x110
+ *(SORT_BY_ALIGNMENT(.dynamic))
+ .dynamic       0x000000000000c000      0x110 ./toctou.o
+                0x000000000000c000                _DYNAMIC
+
+.got            0x000000000000c110       0x80
+ *(SORT_BY_ALIGNMENT(.got.plt))
+ .got.plt       0x000000000000c110       0x18 ./toctou.o
+ *(SORT_BY_ALIGNMENT(.got))
+ .got           0x000000000000c128       0x68 ./toctou.o
+                0x000000000000c128                _GLOBAL_OFFSET_TABLE_
+
+.rel.text
+ *(SORT_BY_ALIGNMENT(.rel.text))
+ *(SORT_BY_ALIGNMENT(.rel.gnu.linkonce.t*))
+
+.rela.text
+ *(SORT_BY_ALIGNMENT(.rela.text))
+ *(SORT_BY_ALIGNMENT(.rela.gnu.linkonce.t*))
+
+.rel.data
+ *(SORT_BY_ALIGNMENT(.rel.data))
+ *(SORT_BY_ALIGNMENT(.rel.gnu.linkonce.d*))
+
+.rela.data
+ *(SORT_BY_ALIGNMENT(.rela.data))
+ *(SORT_BY_ALIGNMENT(.rela.gnu.linkonce.d*))
+
+.rel.rodata
+ *(SORT_BY_ALIGNMENT(.rel.rodata))
+ *(SORT_BY_ALIGNMENT(.rel.gnu.linkonce.r*))
+
+.rela.rodata
+ *(SORT_BY_ALIGNMENT(.rela.rodata))
+ *(SORT_BY_ALIGNMENT(.rela.gnu.linkonce.r*))
+
+.rel.dyn
+ *(SORT_BY_ALIGNMENT(.rel.dyn))
+
+.rel.got
+ *(SORT_BY_ALIGNMENT(.rel.got))
+
+.rela.got       0x000000000000c190      0x120
+ *(SORT_BY_ALIGNMENT(.rela.got))
+ .rela.got      0x000000000000c190      0x120 ./toctou.o
+
+.rel.ctors
+ *(SORT_BY_ALIGNMENT(.rel.ctors))
+
+.rela.ctors
+ *(SORT_BY_ALIGNMENT(.rela.ctors))
+
+.rel.dtors
+ *(SORT_BY_ALIGNMENT(.rel.dtors))
+
+.rela.dtors
+ *(SORT_BY_ALIGNMENT(.rela.dtors))
+
+.rel.init
+ *(SORT_BY_ALIGNMENT(.rel.init))
+
+.rela.init
+ *(SORT_BY_ALIGNMENT(.rela.init))
+
+.rel.fini
+ *(SORT_BY_ALIGNMENT(.rel.fini))
+
+.rela.fini
+ *(SORT_BY_ALIGNMENT(.rela.fini))
+
+.rel.bss
+ *(SORT_BY_ALIGNMENT(.rel.bss))
+
+.rela.bss       0x000000000000c2b0        0x0
+ *(SORT_BY_ALIGNMENT(.rela.bss))
+ .rela.bss      0x000000000000c2b0        0x0 ./toctou.o
+
+.rel.plt
+ *(SORT_BY_ALIGNMENT(.rel.plt))
+
+.rela.plt       0x000000000000c2b0        0x0
+ *(SORT_BY_ALIGNMENT(.rela.plt))
+ .rela.plt      0x000000000000c2b0        0x0 ./toctou.o
+
+.data           0x000000000000c2b0      0x174
+ *(SORT_BY_ALIGNMENT(.data) SORT_BY_ALIGNMENT(.data.*) SORT_BY_ALIGNMENT(.gnu.linkonce.d.*))
+ .data.rel.ro.local
+                0x000000000000c2b0       0xd8 ./user_ta_header.o
+                0x000000000000c2b0                ta_props
+ .data.rel.local
+                0x000000000000c388       0x10 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .data.rel      0x000000000000c398        0x8 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .data.rel.local
+                0x000000000000c3a0       0x80 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .data          0x000000000000c420        0x4 ./user_ta_header.o
+                0x000000000000c420                trace_level
+ .data          0x000000000000c424        0x0 ./toctou.o
+ .data.rel.ro   0x000000000000c424        0x0 ./toctou.o
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .data          0x000000000000c424        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.bss            0x000000000000c428     0xb068
+ *(SORT_BY_ALIGNMENT(.bss) SORT_BY_ALIGNMENT(.bss.*) SORT_BY_ALIGNMENT(.gnu.linkonce.b.*) SORT_BY_ALIGNMENT(COMMON))
+ COMMON         0x000000000000c428       0x48 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+                0x000000000000c428                ta_param_types
+                0x000000000000c430                ta_params
+ .bss           0x000000000000c470        0x8 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .bss           0x000000000000c478        0x8 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .bss           0x000000000000c480     0x3000 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ COMMON         0x000000000000f480        0x8 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+                0x000000000000f480                mbedtls_mpi_mempool
+ .bss           0x000000000000f488        0x0 ./toctou.o
+ .bss           0x000000000000f488        0x0 ./user_ta_header.o
+ COMMON         0x000000000000f488     0x8000 ./user_ta_header.o
+                0x000000000000f488                ta_heap
+ .bss           0x0000000000017488        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .bss           0x0000000000017488        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .bss           0x0000000000017488        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .bss           0x0000000000017488        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .bss           0x0000000000017488        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .bss           0x0000000000017488        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .bss           0x0000000000017488        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+ .bss           0x0000000000017488        0x1 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .bss           0x0000000000017489        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .bss           0x0000000000017489        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .bss           0x0000000000017489        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .bss           0x0000000000017489        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .bss           0x0000000000017489        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .bss           0x0000000000017489        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .bss           0x0000000000017489        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .bss           0x0000000000017489        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .bss           0x0000000000017489        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .bss           0x0000000000017489        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+                0x0000000000017490                . = ALIGN (0x8)
+ *fill*         0x0000000000017489        0x7 
+                0x0000000000017490                __ftrace_buf_start = .
+                0x0000000000017490                . = (. + DEFINED (_mcount)?0x800:0x0)
+                0x0000000000017490                __ftrace_buf_end = .
+
+.dynbss         0x0000000000017490        0x0
+ .dynbss        0x0000000000017490        0x0 ./toctou.o
+
+/DISCARD/
+ *(SORT_BY_ALIGNMENT(.interp))
+LOAD ./toctou.o
+LOAD ./user_ta_header.o
+START GROUP
+LOAD /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a
+LOAD /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a
+LOAD /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a
+LOAD /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libdl.a
+END GROUP
+OUTPUT(63704294-2514-11ed-861d-0242ac120002.elf elf64-littleaarch64)
+
+.debug_info     0x0000000000000000    0x11748
+ .debug_info    0x0000000000000000      0x7de ./toctou.o
+ .debug_info    0x00000000000007de      0x4a1 ./user_ta_header.o
+ .debug_info    0x0000000000000c7f       0xf8 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_info    0x0000000000000d77      0x971 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_info    0x00000000000016e8      0x83e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_info    0x0000000000001f26       0xf8 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_info    0x000000000000201e       0xb0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_info    0x00000000000020ce      0x364 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_info    0x0000000000002432       0x22 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+ .debug_info    0x0000000000002454      0xd6b /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_info    0x00000000000031bf     0x15bd /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_info    0x000000000000477c      0x117 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_info    0x0000000000004893      0x622 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_info    0x0000000000004eb5     0x4639 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_info    0x00000000000094ee     0x5392 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_info    0x000000000000e880      0x11e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_info    0x000000000000e99e     0x21af /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_info    0x0000000000010b4d      0x242 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_info    0x0000000000010d8f       0xf5 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_info    0x0000000000010e84       0xc8 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_info    0x0000000000010f4c      0x516 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_info    0x0000000000011462      0x12d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_info    0x000000000001158f      0x1b9 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.debug_abbrev   0x0000000000000000     0x2d47
+ .debug_abbrev  0x0000000000000000      0x245 ./toctou.o
+ .debug_abbrev  0x0000000000000245      0x1d9 ./user_ta_header.o
+ .debug_abbrev  0x000000000000041e       0xb1 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_abbrev  0x00000000000004cf      0x2ad /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_abbrev  0x000000000000077c      0x2d0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_abbrev  0x0000000000000a4c       0xb2 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_abbrev  0x0000000000000afe       0x87 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_abbrev  0x0000000000000b85      0x18e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_abbrev  0x0000000000000d13       0x12 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+ .debug_abbrev  0x0000000000000d25      0x388 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_abbrev  0x00000000000010ad      0x44f /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_abbrev  0x00000000000014fc       0xc1 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_abbrev  0x00000000000015bd      0x26c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_abbrev  0x0000000000001829      0x4c1 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_abbrev  0x0000000000001cea      0x547 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_abbrev  0x0000000000002231       0xc3 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_abbrev  0x00000000000022f4      0x453 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_abbrev  0x0000000000002747      0x138 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_abbrev  0x000000000000287f       0xa4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_abbrev  0x0000000000002923       0xa3 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_abbrev  0x00000000000029c6      0x1ea /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_abbrev  0x0000000000002bb0       0xc0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_abbrev  0x0000000000002c70       0xd7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.debug_loc      0x0000000000000000    0x19419
+ .debug_loc     0x0000000000000000      0x4a0 ./toctou.o
+ .debug_loc     0x00000000000004a0      0x119 ./user_ta_header.o
+ .debug_loc     0x00000000000005b9      0x169 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_loc     0x0000000000000722      0xbfb /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_loc     0x000000000000131d     0x2734 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_loc     0x0000000000003a51      0x118 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_loc     0x0000000000003b69       0x8c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_loc     0x0000000000003bf5      0x1c4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_loc     0x0000000000003db9      0xb7f /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_loc     0x0000000000004938     0x1858 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_loc     0x0000000000006190       0x3d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_loc     0x00000000000061cd      0x4b3 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_loc     0x0000000000006680     0x437c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_loc     0x000000000000a9fc     0x9ef7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_loc     0x00000000000148f3       0x8f /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_loc     0x0000000000014982     0x3b79 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_loc     0x00000000000184fb      0x1d2 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_loc     0x00000000000186cd      0x327 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_loc     0x00000000000189f4       0xcf /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_loc     0x0000000000018ac3      0x5ea /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_loc     0x00000000000190ad      0x223 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_loc     0x00000000000192d0      0x149 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.debug_aranges  0x0000000000000000      0x7d0
+ .debug_aranges
+                0x0000000000000000       0x30 ./toctou.o
+ .debug_aranges
+                0x0000000000000030       0x30 ./user_ta_header.o
+ .debug_aranges
+                0x0000000000000060       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_aranges
+                0x0000000000000090       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_aranges
+                0x00000000000000c0       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_aranges
+                0x00000000000000f0       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_aranges
+                0x0000000000000120       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_aranges
+                0x0000000000000150       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_aranges
+                0x0000000000000180      0x3b0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+ .debug_aranges
+                0x0000000000000530       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_aranges
+                0x0000000000000560       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_aranges
+                0x0000000000000590       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_aranges
+                0x00000000000005c0       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_aranges
+                0x00000000000005f0       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_aranges
+                0x0000000000000620       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_aranges
+                0x0000000000000650       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_aranges
+                0x0000000000000680       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_aranges
+                0x00000000000006b0       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_aranges
+                0x00000000000006e0       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_aranges
+                0x0000000000000710       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_aranges
+                0x0000000000000740       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_aranges
+                0x0000000000000770       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_aranges
+                0x00000000000007a0       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.debug_ranges   0x0000000000000000     0x16b0
+ .debug_ranges  0x0000000000000000       0x90 ./toctou.o
+ .debug_ranges  0x0000000000000090       0x60 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_ranges  0x00000000000000f0       0x90 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_ranges  0x0000000000000180      0x3b0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+ .debug_ranges  0x0000000000000530      0x190 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_ranges  0x00000000000006c0       0xb0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_ranges  0x0000000000000770       0x30 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_ranges  0x00000000000007a0      0x550 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_ranges  0x0000000000000cf0      0x1d0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_ranges  0x0000000000000ec0      0x7f0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+
+.debug_macro    0x0000000000000000    0x101bf
+ .debug_macro   0x0000000000000000      0x10a ./toctou.o
+ .debug_macro   0x000000000000010a      0x982 ./toctou.o
+ .debug_macro   0x0000000000000a8c      0x16d ./toctou.o
+ .debug_macro   0x0000000000000bf9       0xd9 ./toctou.o
+ .debug_macro   0x0000000000000cd2      0x99e ./toctou.o
+ .debug_macro   0x0000000000001670       0x7c ./toctou.o
+ .debug_macro   0x00000000000016ec      0x1a7 ./toctou.o
+ .debug_macro   0x0000000000001893       0xc4 ./toctou.o
+ .debug_macro   0x0000000000001957       0x22 ./toctou.o
+ .debug_macro   0x0000000000001979       0x35 ./toctou.o
+ .debug_macro   0x00000000000019ae       0x58 ./toctou.o
+ .debug_macro   0x0000000000001a06       0x34 ./toctou.o
+ .debug_macro   0x0000000000001a3a       0x95 ./toctou.o
+ .debug_macro   0x0000000000001acf       0x10 ./toctou.o
+ .debug_macro   0x0000000000001adf       0xca ./toctou.o
+ .debug_macro   0x0000000000001ba9       0x22 ./toctou.o
+ .debug_macro   0x0000000000001bcb       0x16 ./toctou.o
+ .debug_macro   0x0000000000001be1      0x119 ./user_ta_header.o
+ .debug_macro   0x0000000000001cfa      0x982 ./user_ta_header.o
+ .debug_macro   0x000000000000267c       0xd7 ./user_ta_header.o
+ .debug_macro   0x0000000000002753       0x82 ./user_ta_header.o
+ .debug_macro   0x00000000000027d5       0x2e ./user_ta_header.o
+ .debug_macro   0x0000000000002803       0x57 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_macro   0x000000000000285a      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_macro   0x00000000000031a0      0x428 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_macro   0x00000000000035c8       0x7c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_macro   0x0000000000003644       0xd6 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x000000000000371a      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000004060       0xd1 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x0000000000004131       0x2e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_macro   0x000000000000415f      0x134 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000004293      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_macro   0x0000000000004bd9       0x66 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000004c3f      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_macro   0x0000000000005585       0x5a /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_macro   0x00000000000055df      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_macro   0x0000000000005f25       0xf1 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x0000000000006016      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_macro   0x000000000000695c      0x18e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000006aea      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000007430      0x2db /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x000000000000770b       0x34 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x000000000000773f       0x28 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_macro   0x0000000000007767      0x17d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x00000000000078e4      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_macro   0x000000000000822a       0xbd /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x00000000000082e7      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_macro   0x0000000000008c2d      0x13b /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000008d68      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x00000000000096ae       0x7b /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_macro   0x0000000000009729      0x1a2 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x00000000000098cb      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000a211       0x10 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000a221      0x124 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000a345       0x79 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000a3be      0x1e8 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_macro   0x000000000000a5a6      0x19e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x000000000000a744      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x000000000000b08a       0x19 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x000000000000b0a3       0x1c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x000000000000b0bf       0x10 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_macro   0x000000000000b0cf      0x14e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x000000000000b21d      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x000000000000bb63       0x10 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x000000000000bb73       0x72 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x000000000000bbe5       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_macro   0x000000000000bbfb      0x154 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x000000000000bd4f      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x000000000000c695       0x16 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x000000000000c6ab       0x3c /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_macro   0x000000000000c6e7       0x4d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_macro   0x000000000000c734      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_macro   0x000000000000d07a       0x64 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_macro   0x000000000000d0de      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_macro   0x000000000000da24       0x51 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_macro   0x000000000000da75      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_macro   0x000000000000e3bb       0xed /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x000000000000e4a8      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_macro   0x000000000000edee       0x3f /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x000000000000ee2d      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_macro   0x000000000000f773      0x106 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+ .debug_macro   0x000000000000f879      0x946 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.debug_line     0x0000000000000000     0x99af
+ .debug_line    0x0000000000000000      0x37f ./toctou.o
+ .debug_line    0x000000000000037f      0x2c1 ./user_ta_header.o
+ .debug_line    0x0000000000000640      0x15a /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .debug_line    0x000000000000079a      0x4dc /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .debug_line    0x0000000000000c76      0x8bb /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .debug_line    0x0000000000001531      0x173 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .debug_line    0x00000000000016a4      0x165 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .debug_line    0x0000000000001809      0x2e4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .debug_line    0x0000000000001aed      0x528 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+ .debug_line    0x0000000000002015      0x6a3 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .debug_line    0x00000000000026b8      0x955 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .debug_line    0x000000000000300d      0x1ea /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .debug_line    0x00000000000031f7      0x3c6 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .debug_line    0x00000000000035bd     0x145f /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .debug_line    0x0000000000004a1c     0x3178 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .debug_line    0x0000000000007b94      0x296 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .debug_line    0x0000000000007e2a      0xec4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .debug_line    0x0000000000008cee      0x195 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .debug_line    0x0000000000008e83      0x194 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .debug_line    0x0000000000009017      0x153 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .debug_line    0x000000000000916a      0x3b3 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .debug_line    0x000000000000951d      0x1fd /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .debug_line    0x000000000000971a      0x295 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.debug_str      0x0000000000000000    0x11f91
+ .debug_str     0x0000000000000000     0x83e8 ./toctou.o
+                                       0x8568 (size before relaxing)
+ .debug_str     0x00000000000083e8      0xf3e ./user_ta_header.o
+                                       0x9318 (size before relaxing)
+ .debug_str     0x0000000000009326     0x112b /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+                                       0x40ac (size before relaxing)
+ .debug_str     0x000000000000a451      0x242 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+                                       0x5fa2 (size before relaxing)
+ .debug_str     0x000000000000a693      0x5af /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+                                       0x4d6a (size before relaxing)
+ .debug_str     0x000000000000ac42      0x13e /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+                                       0x42b7 (size before relaxing)
+ .debug_str     0x000000000000ad80       0x7a /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+                                       0x4254 (size before relaxing)
+ .debug_str     0x000000000000adfa       0x5d /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+                                       0x9520 (size before relaxing)
+ .debug_str     0x000000000000ae57       0x37 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                                         0x5d (size before relaxing)
+ .debug_str     0x000000000000ae8e     0x3753 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+                                       0xd7f6 (size before relaxing)
+ .debug_str     0x000000000000e5e1      0x4a2 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+                                       0xa546 (size before relaxing)
+ .debug_str     0x000000000000ea83       0x59 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+                                       0x8c23 (size before relaxing)
+ .debug_str     0x000000000000eadc      0x2f7 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+                                       0x9eab (size before relaxing)
+ .debug_str     0x000000000000edd3     0x1cd4 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+                                       0xb34f (size before relaxing)
+ .debug_str     0x0000000000010aa7      0x842 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+                                       0x6c1d (size before relaxing)
+ .debug_str     0x00000000000112e9      0x3ba /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+                                       0x5a86 (size before relaxing)
+ .debug_str     0x00000000000116a3      0x676 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+                                       0x6742 (size before relaxing)
+ .debug_str     0x0000000000011d19       0x46 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+                                       0x3ff9 (size before relaxing)
+ .debug_str     0x0000000000011d5f       0x5b /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+                                       0x4293 (size before relaxing)
+ .debug_str     0x0000000000011dba       0x50 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+                                       0x4049 (size before relaxing)
+ .debug_str     0x0000000000011e0a       0xdf /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+                                       0x613b (size before relaxing)
+ .debug_str     0x0000000000011ee9       0x68 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+                                       0x4064 (size before relaxing)
+ .debug_str     0x0000000000011f51       0x40 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+                                       0x9284 (size before relaxing)
+
+.comment        0x0000000000000000       0x55
+ .comment       0x0000000000000000       0x55 ./toctou.o
+                                         0x56 (size before relaxing)
+ .comment       0x0000000000000055       0x56 ./user_ta_header.o
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .comment       0x0000000000000055       0x56 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./toctou.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./user_ta_header.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memcpy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(trace.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintk.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memchr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(strlen.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(trace_ext.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(user_ta_entry.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_panic.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_system_pta.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(bignum.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libmbedtls.a(platform_util.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(bget_malloc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(snprintf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memmove.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(memset.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(mempool.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutils.a(consttime_memcmp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/hei/Desktop/optee-qemu/optee_os/out/arm/export-ta_arm64/lib/libutee.a(assert.o)
